@@ -24,6 +24,7 @@
       <li><a href="#personajes">Personajes</a></li>
       <li><a href="#galeria">Galería</a></li>
       <li><a href="#video">Video</a></li>
+      <li><a href="#formulario">Formulario</a></li>
     </ul>
   </nav>
 
@@ -108,6 +109,61 @@
         allowfullscreen>
       </iframe>
     </section>
+<!-- ---------- Sección: Formulario ---------- -->
+    <section id="formulario">
+      <h2>Formulario de Contacto</h2>
+      <p>Completa el siguiente formulario para compartir tu opinión o solicitud relacionada con Hollow Knight:</p>
+
+      <!-- Formulario con método POST -->
+      <form action="procesar_formulario.php" method="POST" class="formulario">
+        <!-- Datos personales -->
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre_completo" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="correo_electronico" required>
+
+        <label for="pais">País:</label>
+        <input type="text" id="pais" name="pais" required>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" min="10" max="100" required>
+
+        <!-- Preferencias del jugador -->
+        <label for="plataforma">Plataforma favorita:</label>
+        <select id="plataforma" name="plataforma">
+          <option>PC</option>
+          <option>Nintendo Switch</option>
+          <option>PlayStation</option>
+          <option>Xbox</option>
+        </select>
+
+        <label for="personaje">Personaje favorito:</label>
+        <input type="text" id="personaje" name="personaje_favorito">
+
+        <label for="nivel">Nivel de dificultad preferido:</label>
+        <select id="nivel" name="nivel_dificultad">
+          <option>Fácil</option>
+          <option>Normal</option>
+          <option>Difícil</option>
+          <option>Pesadilla</option>
+        </select>
+
+        <label for="comentarios">Comentarios o sugerencias:</label>
+        <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribe aquí tus comentarios..."></textarea>
+
+        <!-- Otros datos -->
+        <label for="suscripcion">¿Deseas recibir noticias?</label>
+        <input type="checkbox" id="suscripcion" name="suscripcion" value="Sí"> Sí, deseo recibir noticias del juego
+
+        <label for="fecha">Fecha de envío:</label>
+        <input type="date" id="fecha" name="fecha_envio" required>
+
+        <!-- Botón -->
+        <input type="submit" value="Enviar Formulario">
+      </form>
+    </section>
+
   </main>
 
   <!-- PIE DE PÁGINA -->

@@ -1,4 +1,4 @@
-/* Estilos generales */
+/* ======== Estilos globales ======== */
 body {
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@ body {
   line-height: 1.6;
 }
 
-/* Encabezado */
+/* ======== Encabezado ======== */
 header {
   text-align: center;
   background-color: #000;
@@ -23,7 +23,6 @@ header .banner {
 }
 header h1 {
   font-size: 2.5em;
-  margin: 0.5em 0 0.2em 0;
   color: #9cc;
 }
 header p {
@@ -31,7 +30,7 @@ header p {
   color: #ccc;
 }
 
-/* Navegación */
+/* ======== Navegación ======== */
 nav {
   background-color: #111;
   border-bottom: 1px solid #333;
@@ -57,7 +56,7 @@ nav a:hover {
   border-bottom: 2px solid #9cc;
 }
 
-/* Contenido principal */
+/* ======== Contenido principal ======== */
 main {
   padding: 2em;
   max-width: 1000px;
@@ -75,7 +74,7 @@ p, li {
   color: #ddd;
 }
 
-/* Galería */
+/* ======== Galería ======== */
 .galeria {
   display: flex;
   flex-wrap: wrap;
@@ -100,7 +99,7 @@ p, li {
   margin-top: 0.5em;
 }
 
-/* Video */
+/* ======== Video ======== */
 #video {
   text-align: center;
 }
@@ -109,7 +108,50 @@ iframe {
   max-width: 100%;
 }
 
-/* Pie de página */
+/* ======== Formulario ======== */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+  background: #111;
+  padding: 1.5em;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+.formulario label {
+  font-weight: bold;
+  color: #9cc;
+}
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="number"],
+.formulario input[type="date"],
+.formulario select,
+.formulario textarea {
+  background: #000;
+  border: 1px solid #444;
+  color: #eee;
+  border-radius: 4px;
+  padding: 0.5em;
+}
+.formulario input[type="checkbox"] {
+  margin-right: 5px;
+}
+.formulario input[type="submit"] {
+  background: #007b8f;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  padding: 0.8em;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1em;
+}
+.formulario input[type="submit"]:hover {
+  background: #00a8b5;
+}
+
+/* ======== Pie de página ======== */
 footer {
   background: #000;
   color: #888;
