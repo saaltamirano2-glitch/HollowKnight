@@ -1,64 +1,77 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hollow Knight - Sitio Temático</title>
-  <link rel="stylesheet" href="style.css">
+  <title class="text-success">Hollow Knight - Sitio Temático</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<body>
+
+<body class="bg-dark">
 
   <!-- ENCABEZADO -->
-  <header>
-    <img src="img/banner.jpg" alt="Banner de Hollow Knight" class="banner">
-    <h1>Hollow Knight</h1>
-    <p>Explora el misterioso reino de Hallownest</p>
+  <header class="bg-black text-center py-4 border-bottom border-secondary">
+    <img src="img/banner.jpg" alt="Banner de Hollow Knight" class="banner img-fluid rounded-3">
+    <h1 class="text-light fs-1">Hollow Knight</h1>
+    <p class="text-light fst-italic">Explora el misterioso reino de Hallownest</p>
   </header>
 
   <!-- NAVEGACIÓN -->
-  <nav>
-    <ul>
-      <li><a href="#inicio">Inicio</a></li>
-      <li><a href="#historia">Historia</a></li>
-      <li><a href="#jugabilidad">Jugabilidad</a></li>
-      <li><a href="#personajes">Personajes</a></li>
-      <li><a href="#galeria">Galería</a></li>
-      <li><a href="#video">Video</a></li>
-      <li><a href="#formulario">Formulario</a></li>
-    </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <ul class="navbar-nav mx-auto fw-bold">
+        <li class="nav-item"><a class="nav-link text-success-subtle" href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link text-success" href="#historia">Historia</a></li>
+        <li class="nav-item"><a class="nav-link text-success" href="#jugabilidad">Jugabilidad</a></li>
+        <li class="nav-item"><a class="nav-link text-success" href="#personajes">Personajes</a></li>
+        <li class="nav-item"><a class="nav-link text-success" href="#galeria">Galería</a></li>
+        <li class="nav-item"><a class="nav-link text-success" href="#video">Video</a></li>
+        <li class="nav-item"><a class="nav-link text-success" href="#formulario">Formulario</a></li>
+      </ul>
+    </div>
   </nav>
 
   <!-- CONTENIDO PRINCIPAL -->
-  <main>
+  <main class="container-lg py-4">
     <!-- Sección: Inicio -->
     <section id="inicio">
-      <h2>Sobre el Juego</h2>
-      <p><strong>Hollow Knight</strong> es un videojuego de acción y aventura tipo <em>metroidvania</em> desarrollado por <strong>Team Cherry</strong>. 
-      Fue lanzado en 2017 para Windows, y más tarde para macOS, Linux, Nintendo Switch, PlayStation 4 y Xbox One. 
-      El jugador controla a un enigmático guerrero insectoide conocido como <strong>El Caballero</strong>, que explora el vasto y decadente reino subterráneo de <strong>Hallownest</strong>.</p>
+      <h2 class="text-info border-bottom border-secondary pb-2">Sobre el Juego</h2>
+      <p class="text-light"><strong>Hollow Knight</strong> es un videojuego de acción y aventura tipo <em>metroidvania</em> desarrollado
+        por <strong>Team Cherry</strong>.
+        Fue lanzado en 2017 para Windows, y más tarde para macOS, Linux, Nintendo Switch, PlayStation 4 y Xbox One.
+        El jugador controla a un enigmático guerrero insectoide conocido como <strong>El Caballero</strong>, que explora
+        el vasto y decadente reino subterráneo de <strong>Hallownest</strong>.</p>
 
-      <p>El juego destaca por su impresionante <em>arte dibujado a mano</em>, su música atmosférica y su profunda narrativa ambiental. 
-      Los jugadores descubren la historia a través de los escenarios, inscripciones y los pocos habitantes sobrevivientes del reino.</p>
+      <p class="text-light">El juego destaca por su impresionante <em>arte dibujado a mano</em>, su música atmosférica y su profunda
+        narrativa ambiental.
+        Los jugadores descubren la historia a través de los escenarios, inscripciones y los pocos habitantes
+        sobrevivientes del reino.</p>
     </section>
 
     <!-- Sección: Historia -->
     <section id="historia">
-      <h2>Historia</h2>
-      <p>En los tiempos antiguos, Hallownest fue un próspero reino habitado por diversas especies de insectos inteligentes. 
-      Sin embargo, una misteriosa infección conocida como la <strong>Radiance</strong> comenzó a propagarse, corrompiendo las mentes de sus habitantes.</p>
+      <h2 class="text-info border-bottom border-secondary pb-2">Historia</h2>
+      <p class="text-light">En los tiempos antiguos, Hallownest fue un próspero reino habitado por diversas especies de insectos
+        inteligentes.
+        Sin embargo, una misteriosa infección conocida como la <strong>Radiance</strong> comenzó a propagarse,
+        corrompiendo las mentes de sus habitantes.</p>
 
-      <p>Para contener la plaga, el Rey Pálido selló a la Radiance dentro de un receptáculo vacío —el <strong>Hollow Knight</strong>. 
-      Pero con el paso del tiempo, el sello se debilitó, y la infección volvió a emerger. 
-      El jugador, como el Caballero, debe adentrarse en las profundidades para descubrir su propia naturaleza y el destino del reino perdido.</p>
+      <p class="text-light">Para contener la plaga, el Rey Pálido selló a la Radiance dentro de un receptáculo vacío —el <strong>Hollow
+          Knight</strong>.
+        Pero con el paso del tiempo, el sello se debilitó, y la infección volvió a emerger.
+        El jugador, como el Caballero, debe adentrarse en las profundidades para descubrir su propia naturaleza y el
+        destino del reino perdido.</p>
     </section>
 
     <!-- Sección: Jugabilidad -->
     <section id="jugabilidad">
-      <h2>Jugabilidad</h2>
-      <p>Hollow Knight ofrece un extenso mundo interconectado lleno de secretos, enemigos y desafíos. 
-      La exploración es libre y se desbloquean nuevas áreas al obtener habilidades y herramientas.</p>
+      <h2 class="text-info border-bottom border-secondary pb-2">Jugabilidad</h2>
+      <p class="text-light">Hollow Knight ofrece un extenso mundo interconectado lleno de secretos, enemigos y desafíos.
+        La exploración es libre y se desbloquean nuevas áreas al obtener habilidades y herramientas.</p>
 
-      <ul>
+      <ul class="text-light">
         <li><strong>Combate ágil:</strong> utiliza el <em>Aguijón</em> para atacar, esquivar y usar hechizos.</li>
         <li><strong>Exploración:</strong> descubre nuevas rutas, pasadizos y zonas ocultas.</li>
         <li><strong>Amuletos:</strong> equipa encantamientos que modifican las habilidades del Caballero.</li>
@@ -68,9 +81,10 @@
 
     <!-- Sección: Personajes -->
     <section id="personajes">
-      <h2>Personajes Principales</h2>
-      <p>El mundo de Hollow Knight está poblado por fascinantes personajes que aportan profundidad a la historia. Algunos de los más importantes son:</p>
-      <ul>
+      <h2 class="text-info border-bottom border-secondary pb-2">Personajes Principales</h2>
+      <p class="text-light">El mundo de Hollow Knight está poblado por fascinantes personajes que aportan profundidad a la historia.
+        Algunos de los más importantes son:</p>
+      <ul class="text-light">
         <li><strong>El Caballero:</strong> el protagonista silencioso del juego, portador del aguijón.</li>
         <li><strong>Hornet:</strong> guardiana de Hallownest, hábil y veloz en combate.</li>
         <li><strong>El Rey Pálido:</strong> antiguo gobernante de Hallownest.</li>
@@ -80,98 +94,107 @@
 
     <!-- Sección: Galería -->
     <section id="galeria">
-      <h2>Galería</h2>
-      <div class="galeria">
-        <figure>
-          <img src="img/hallownest.webp" alt="Mapa del reino de Hallownest">
-          <figcaption>Mapa de Hallownest</figcaption>
+      <h2 class="text-info border-bottom border-secondary pb-2">Galería</h2>
+      <div class="galeria d-flex flex-wrap justify-content-around gap-3">
+        <figure class="bg-dark border border-secondary rounded-3 p-3" style="width: 300px;">
+          <img src="img/hallownest.webp" alt="Mapa del reino de Hallownest" class="img-fluid rounded-3">
+          <figcaption class="text-light mt-2">Mapa de Hallownest</figcaption>
         </figure>
-        <figure>
-          <img src="img/hornet.webp" alt="Hornet en combate">
-          <figcaption>Hornet, guardiana del reino</figcaption>
+        <figure class="bg-dark border border-secondary rounded-3 p-3" style="width: 300px;">
+          <img src="img/hornet.webp" alt="Hornet en combate" class="img-fluid rounded-3">
+          <figcaption class="text-light mt-2">Hornet, guardiana del reino</figcaption>
         </figure>
-        <figure>
-          <img src="img/knight.webp" alt="El Caballero en las profundidades">
-          <figcaption>El Caballero explora las profundidades</figcaption>
+        <figure class="bg-dark border border-secondary rounded-3 p-3" style="width: 300px;">
+          <img src="img/knight.webp" alt="El Caballero en las profundidades" class="img-fluid rounded-3">
+          <figcaption class="text-light mt-2">El Caballero explora las profundidades</figcaption>
         </figure>
       </div>
     </section>
 
     <!-- Sección: Video -->
     <section id="video">
-      <h2>Trailer Oficial</h2>
-      <p>Disfruta del trailer oficial del juego desarrollado por Team Cherry:</p>
-      <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/UAO2urG23S4"
-        title="Trailer oficial Hollow Knight"
-        frameborder="0"
+      <h2 class="text-info border-bottom border-secondary pb-2">Trailer Oficial</h2>
+      <p class="text-light">Disfruta del trailer oficial del juego desarrollado por Team Cherry:</p>
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/UAO2urG23S4"
+        title="Trailer oficial Hollow Knight" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-      </iframe>
+        allowfullscreen></iframe>
     </section>
-<!-- ---------- Sección: Formulario ---------- -->
+
+    <!-- Sección: Formulario -->
     <section id="formulario">
-      <h2>Formulario de Contacto</h2>
-      <p>Completa el siguiente formulario para compartir tu opinión o solicitud relacionada con Hollow Knight:</p>
+      <h2 class="text-info border-bottom border-secondary pb-2">Formulario de Contacto</h2>
+      <p class="text-light">Completa el siguiente formulario para compartir tu opinión o solicitud relacionada con Hollow Knight:</p>
 
       <!-- Formulario con método POST -->
-      <form action="procesar_formulario.php" method="POST" class="formulario">
-        <!-- Datos personales -->
-        <label for="nombre">Nombre completo:</label>
-        <input type="text" id="nombre" name="nombre_completo" required>
-
-        <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" name="correo_electronico" required>
-
-        <label for="pais">País:</label>
-        <input type="text" id="pais" name="pais" required>
-
-        <label for="edad">Edad:</label>
-        <input type="number" id="edad" name="edad" min="10" max="100" required>
-
-        <!-- Preferencias del jugador -->
-        <label for="plataforma">Plataforma favorita:</label>
-        <select id="plataforma" name="plataforma">
-          <option>PC</option>
-          <option>Nintendo Switch</option>
-          <option>PlayStation</option>
-          <option>Xbox</option>
-        </select>
-
-        <label for="personaje">Personaje favorito:</label>
-        <input type="text" id="personaje" name="personaje_favorito">
-
-        <label for="nivel">Nivel de dificultad preferido:</label>
-        <select id="nivel" name="nivel_dificultad">
-          <option>Fácil</option>
-          <option>Normal</option>
-          <option>Difícil</option>
-          <option>Pesadilla</option>
-        </select>
-
-        <label for="comentarios">Comentarios o sugerencias:</label>
-        <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribe aquí tus comentarios..."></textarea>
-
-        <!-- Otros datos -->
-        <label for="suscripcion">¿Deseas recibir noticias?</label>
-        <input type="checkbox" id="suscripcion" name="suscripcion" value="Sí"> Sí, deseo recibir noticias del juego
-
-        <label for="fecha">Fecha de envío:</label>
-        <input type="date" id="fecha" name="fecha_envio" required>
-
-        <!-- Botón -->
-        <input type="submit" value="Enviar Formulario">
+      <form action="procesar_formulario.php" method="POST" class="p-4 bg-dark rounded-3 border border-secondary">
+        <div class="mb-3">
+          <label for="nombre" class="form-label text-success">Nombre completo:</label>
+          <input type="text" id="nombre" name="nombre_completo" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label text-success">Correo electrónico:</label>
+          <input type="email" id="email" name="correo_electronico" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="pais" class="form-label text-success">País:</label>
+          <input type="text" id="pais" name="pais" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="edad" class="form-label text-success">Edad:</label>
+          <input type="number" id="edad" name="edad" min="10" max="100" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="plataforma" class="form-label text-success">Plataforma favorita:</label>
+          <select id="plataforma" name="plataforma" class="form-select">
+            <option>PC</option>
+            <option>Nintendo Switch</option>
+            <option>PlayStation</option>
+            <option>Xbox</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="personaje" class="form-label text-success">Personaje favorito:</label>
+          <input type="text" id="personaje" name="personaje_favorito" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label for="nivel" class="form-label text-success">Nivel de dificultad preferido:</label>
+          <select id="nivel" name="nivel_dificultad" class="form-select">
+            <option>Fácil</option>
+            <option>Normal</option>
+            <option>Difícil</option>
+            <option>Pesadilla</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="comentarios" class="form-label text-success">Comentarios o sugerencias:</label>
+          <textarea id="comentarios" name="comentarios" rows="4" class="form-control" placeholder="Escribe aquí tus comentarios..."></textarea>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" id="suscripcion" name="suscripcion" value="Sí" class="form-check-input">
+          <label for="suscripcion" class="form-check-label text-success">Sí, deseo recibir noticias del juego</label>
+        </div>
+        <div class="mb-3">
+          <label for="fecha" class="form-label text-success">Fecha de envío:</label>
+          <input type="date" id="fecha" name="fecha_envio" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar Formulario</button>
       </form>
     </section>
 
   </main>
 
   <!-- PIE DE PÁGINA -->
-  <footer id="contacto">
+  <footer class="bg-black text-center text-light py-4 border-top border-secondary">
     <p>© 2025 Team Cherry | Sitio temático creado con fines educativos.</p>
-    <p>Información obtenida de <a href="https://www.teamcherry.com.au/" target="_blank">sitio oficial</a> y 
-      <a href="https://hollowknight.fandom.com/wiki/Hollow_Knight_Wiki" target="_blank">wiki de Hollow Knight</a>.</p>
+    <p>Información obtenida de <a href="https://www.teamcherry.com.au/" target="_blank" class="text-success">sitio oficial</a> y
+      <a href="https://hollowknight.fandom.com/wiki/Hollow_Knight_Wiki" target="_blank" class="text-success">wiki de Hollow Knight</a>.
+    </p>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
